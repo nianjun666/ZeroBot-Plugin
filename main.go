@@ -59,7 +59,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"      // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"        // 随机老婆
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"           // base16384加解密
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"         // 百度一下
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"         /响应 百度一下
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"      // b站相关
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/book_review"   // 哀伤雪刃吧推书记录
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/breakrepeat"   // 打断复读
@@ -76,7 +76,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/epidemic"      // 城市疫情查询
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"          // 渲染任意文字到图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"       // 运势
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"         // 笑话
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"         /响应 笑话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"       // 原神抽卡
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"           // 制图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"        // 搜索GitHub仓库
