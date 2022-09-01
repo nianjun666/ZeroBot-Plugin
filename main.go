@@ -57,10 +57,10 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"         // ahsai tts
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"      // 服务器监控
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"        // 随机老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"           // base16384加解密
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"         // 百度一下
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"      // b站相关
+        _ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"         随机老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"           base16384加解密
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"          百度一下
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"       b站相关
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/book_review"   // 哀伤雪刃吧推书记录
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/breakrepeat"   // 打断复读
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cangtoushi"    // 藏头诗
@@ -76,8 +76,8 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/epidemic"      // 城市疫情查询
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"          // 渲染任意文字到图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"       // 运势
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"         // 笑话
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"       // 原神抽卡
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"          笑话
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"        原神抽卡
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"           // 制图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"        // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"    // 猜歌
@@ -106,7 +106,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/saucenao"      // 以图搜图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/scale"         // 叔叔的AI二次元图片放大
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"         // 分数
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"      // 来份涩图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"       来份涩图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao"       // 沙雕app
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shindan"       // 测定
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tarot"         // 抽塔罗牌
@@ -165,7 +165,7 @@ import (
 
 func init() {
 	sus := make([]int64, 0, 16)
-	// 解析命令行参数
+	 解析命令行参数
 	d := flag.Bool("d", false, "Enable debug level log and higher.")
 	w := flag.Bool("w", false, "Enable warning level log and higher.")
 	h := flag.Bool("h", false, "Display this help.")
@@ -204,7 +204,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
+	 sus = append(sus, 1002848745)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
